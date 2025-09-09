@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
@@ -52,7 +52,7 @@ export default function Home() {
           title="DogMemecoin Tokenomics"
           description="A community-driven token that thrives on the participation of its holders."
           kpiItems={[
-            { value: '1M', description: 'Total Supply', longDescription: 'Total number of tokens.' , icon: 'Users' },
+            { value: '1M', description: 'Total Supply', longDescription: 'Total number of tokens.', icon: 'Users' },
             { value: '0.1%', description: 'Transaction Fee', longDescription: 'Fee for every transaction on the network.', icon: 'Shield' },
             { value: '50%', description: 'Circulating Supply', longDescription: 'Percentage of tokens available in the market.', icon: 'Chart' }
           ]}

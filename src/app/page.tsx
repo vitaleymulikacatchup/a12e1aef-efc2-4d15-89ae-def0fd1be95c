@@ -7,7 +7,6 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
 import { Shield, Users } from 'lucide-react';
-
 export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
@@ -25,7 +24,6 @@ export default function Home() {
           { name: 'Footer', id: 'footer' },
         ]}
       />
-
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <TokenBillboardHero
           title="Join the DogMemecoin Adventure!"
@@ -35,19 +33,16 @@ export default function Home() {
           copiedText="Address Copied!"
         />
       </div>
-
       <div id="about" data-section="about" className="scroll-mt-24">
         <SplitAbout
           description="DogMemecoin is a fun and engaging community-driven cryptocurrency designed to bring joy and value to our holders."
         />
       </div>
-
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy2D
           variant="simple"
         />
       </div>
-
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <BigNumberTokenomics
           title="DogMemecoin Tokenomics"
@@ -59,7 +54,6 @@ export default function Home() {
           ]}
         />
       </div>
-
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
@@ -70,7 +64,6 @@ export default function Home() {
             { items: [{ label: 'Contact Us', onClick: () => {/* Handle Contact Click */}}] },
             { items: [{ label: 'About Us', onClick: () => {/* Handle About Click */}}] }
           ]}
-          copyrightText="© 2023 DogMemecoin. All rights reserved."
         />
       </div>
     </SiteThemeProvider>

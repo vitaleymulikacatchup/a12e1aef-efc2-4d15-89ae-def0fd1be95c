@@ -6,6 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
+import { Shield, Users, Chart } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -52,9 +53,9 @@ export default function Home() {
           title="DogMemecoin Tokenomics"
           description="A community-driven token that thrives on the participation of its holders."
           kpiItems={[
-            { value: '1M', description: 'Total Supply', longDescription: 'Total number of tokens.', icon: 'Users' },
-            { value: '0.1%', description: 'Transaction Fee', longDescription: 'Fee for every transaction on the network.', icon: 'Shield' },
-            { value: '50%', description: 'Circulating Supply', longDescription: 'Percentage of tokens available in the market.', icon: 'Chart' }
+            { value: '1M', description: 'Total Supply', longDescription: 'Total number of tokens.', icon: Users },
+            { value: '0.1%', description: 'Transaction Fee', longDescription: 'Fee for every transaction on the network.', icon: Shield },
+            { value: '50%', description: 'Circulating Supply', longDescription: 'Percentage of tokens available in the market.', icon: Chart }
           ]}
         />
       </div>
